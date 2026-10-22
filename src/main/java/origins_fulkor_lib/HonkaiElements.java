@@ -29,8 +29,8 @@ public enum HonkaiElements {
     HonkaiElements(String id, int color) {
         this.id = id;
         this.color = color;
-        this.damageType = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(OriginsBrilliance.MOD_ID));
-        this.tag = TagKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(OriginsBrilliance.MOD_ID, "element/" + id));
+        this.damageType = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(OriginsBrilliance.MOD_ID, "honkai/" + id));
+        this.tag = TagKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(OriginsBrilliance.MOD_ID, "honkai_element/" + id));
     }
 
     public static HonkaiElements getElement(String name) {
