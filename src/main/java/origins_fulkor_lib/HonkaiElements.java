@@ -38,7 +38,7 @@ public enum HonkaiElements {
         return null;
     }
 
-    public static List<String> getAllElements(String name) {
+    public static List<String> getAllElements() {
         return Arrays.stream(values()).map(element -> element.id).toList();
     }
 

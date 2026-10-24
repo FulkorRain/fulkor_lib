@@ -1,0 +1,9 @@
+{
+  "death.attack.honkai_fire": "%1$s was burned by Fire.",
+  "death.attack.honkai_ice": "%1$s was frozen by Ice.",
+  "death.attack.honkai_lightning": "%1$s was electrocuted by Lightning.",
+  "death.attack.honkai_physical": "%1$s was killed by Physical DMG.",
+  "death.attack.honkai_wind": "%1$s was pierced by Wind.",
+  "death.attack.honkai_quantum": "%1$s was quantum'd by Quantum.",
+  "death.attack.honkai_imaginary": "%1$s was sent to the Imaginary tree by Imaginary DMG."
+}
