@@ -38,6 +38,8 @@ public enum HonkaiElements {
         return null;
     }
 
+    public int bit() { return 1 << ordinal(); }
+
     public static List<String> getAllElements() {
         return Arrays.stream(values()).map(element -> element.id).toList();
     }
